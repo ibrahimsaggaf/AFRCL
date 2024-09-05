@@ -90,7 +90,6 @@ class SupConLoss(nn.Module):
     This code is modified based on the impelemtation by
     https://github.com/HobbitLong/SupContrast
     '''
-
     def __init__(self, device, temperature, n_views=2):
         super().__init__()
 
