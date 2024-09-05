@@ -125,14 +125,14 @@ Here we briefly describe each `.py` file in the **code** folder.
 
 `data.py` Reads and preprocesses the given dataset.
 
-`losses.py` Includes the modified supervised contrastive learning loss (ModifiedSupCon), including SimCLR [(Chen et al., 2020)](http://proceedings.mlr.press/v119/chen20j.html) and SupCon [(Khosla et al., 2020)](https://proceedings.neurips.cc/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html).
+`losses.py` Includes the modified supervised contrastive learning loss (ModifiedSupCon) along with SimCLR [(Chen et al., 2020)](http://proceedings.mlr.press/v119/chen20j.html) and SupCon [(Khosla et al., 2020)](https://proceedings.neurips.cc/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html).
 
 `networks.py` Includes the encoder architecture.
 
 `utils.py` and `h5.py` Includes some helper functions.
 
 # Availability
-The datasets used in this work and the pretrained encoders that obtained the best predictive performance for each organism (see Table 2) can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12143797.svg)](https://doi.org/10.5281/zenodo.12143797).
+The single-cell RNA-Seq datasets (i.e. genes experssion matrices) used in this work can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8087611.svg)](https://doi.org/10.5281/zenodo.8087611). The cell-type annotations for those datasets are available in the **Cell-type annotations** folder. The AF-RCL pre-trained encoders can be downloaded from .
 
 # Acknowledgements
 The authors acknowledge the support by the School of Computing and Mathematical Sciences and the Birkbeck GTA programme.
