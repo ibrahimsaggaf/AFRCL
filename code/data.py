@@ -77,7 +77,7 @@ class Data:
 
         else:
             raise NotImplementedError(
-                f'File X format is not supported. Please use one of the following formats: '\
+                f'File X type is not supported. Please use one of the following types: '\
                 '.h5 or .csv'
             )
         
@@ -86,7 +86,7 @@ class Data:
 
         else:
             raise NotImplementedError(
-                f'File y format is not supported. Please use the format .csv'
+                f'File y type is not supported. Please use the type .csv'
             )
 
         assert X.shape[0] == self.labels.shape[0], f'The number of samples in file_X ({X.shape[0]}) '\

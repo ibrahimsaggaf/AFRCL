@@ -90,7 +90,7 @@ if __name__ == '__main__':
     parser.add_argument('--name', help='the dataset name')
     parser.add_argument('--method', help='the method name. Please enter one of the following methods: GsRCL, RMCL, or AFRCL')
     parser.add_argument('--res_path', help='the path where the results are saved')
-    parser.add_argument('--loss', help='the contrastive loss, either SupCon or SimCLR')
+    parser.add_argument('--loss', help='the contrastive loss, either SupCon, SimCLR, or ModifiedSupCon')
     parser.add_argument('--val_metric', help='the metric for model selection, it should be either acc, mcc, or f1')
     parser.add_argument('--train_size', type=float, default=0.8, help='the training set size when splitting the data')
     parser.add_argument('--cv', type=int, default=5, help='the number of cross validation folds')
