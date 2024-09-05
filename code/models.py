@@ -186,7 +186,6 @@ class GsRCL(BaseModel):
     This code is modified based on the impelemtation by
     https://github.com/ibrahimsaggaf/GsRCL
     '''
-    
     def __init__(self, data, val_metric, loss, epochs, batch_size, step, temperature, lr, wd, device, res_path, 
                  enc_kwargs):
         super().__init__(
@@ -258,7 +257,6 @@ class RMCL(BaseModel):
     This code is modified based on the impelemtation by
     https://github.com/ibrahimsaggaf/GsRCL
     '''
-    
     def __init__(self, data, val_metric, loss, epochs, batch_size, step, temperature, lr, wd, device, res_path, 
                  enc_kwargs):
         super().__init__(
