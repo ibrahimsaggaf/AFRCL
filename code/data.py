@@ -17,8 +17,8 @@ def data_loader(X, y, batch_size):
 
 class Data:
     def __init__(self, file_X, file_y, name, train_size, seed, cv, top_n_genes=None):
-        self.file_X = file_X
-        self.file_y = file_y
+        self.file_X = str(file_X)
+        self.file_y = str(file_y)
         self.name = name
         self.top_n_genes = top_n_genes
         self.train_size = train_size
