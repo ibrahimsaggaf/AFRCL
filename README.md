@@ -2,7 +2,7 @@
 This is a python implementation of the augmentation-free single-cell RNA-Seq contrastive learning method (AF-RCL) reported in:
 ```
 @article{...,
-  title={Less is more: improving cell-type identification with augmentation-free single-cell RNA-Seq contrastive learning},
+  title={Less is more: Improving cell-type identification with augmentation-free single-cell RNA-Seq contrastive learning},
   author={Alsaggaf, Ibrahim and Buchan, Daniel and Wan, Cen},
   journal={...},
   pages={...},
