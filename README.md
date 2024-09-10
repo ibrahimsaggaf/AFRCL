@@ -132,7 +132,7 @@ Here we briefly describe each `.py` file in the **code** folder.
 `utils.py` and `h5.py` Includes some helper functions.
 
 # Availability
-The single-cell RNA-Seq datasets (i.e. genes experssion matrices) used in this work can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8087611.svg)](https://doi.org/10.5281/zenodo.8087611). The cell-type annotations for those datasets can be found in the [Cell-type annotations](https://github.com/ibrahimsaggaf/AFRCL/tree/main/Cell-type%20annotations) folder. The AF-RCL pre-trained encoders can be downloaded from .
+The single-cell RNA-Seq datasets (i.e. genes experssion matrices) used in this work can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8087611.svg)](https://doi.org/10.5281/zenodo.8087611). The cell-type annotations for those datasets can be found in the [Cell-type annotations](https://github.com/ibrahimsaggaf/AFRCL/tree/main/Cell-type%20annotations) folder. The AF-RCL pre-trained encoders can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13737590.svg)](https://doi.org/10.5281/zenodo.13737590).
 
 # Acknowledgements
 The authors acknowledge the support by the School of Computing and Mathematical Sciences and the Birkbeck GTA programme.
