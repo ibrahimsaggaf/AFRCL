@@ -64,6 +64,19 @@ python3 main.py\
 --res_path [the full path where the results will be saved]
 ```
 
+To run the augmentation-free single-cell RNA-Seq contrastive learning method using the conventional supervised contrastive loss funtion (**AF-RCL-c**) execute:
+```
+python3 main.py\
+--X [full path to the genes experssion matrix]\
+--y [full path to cell-types annotations]\
+--name [the name of the dataset]\
+--method AFRCL --loss SupCon\
+--val_metric mcc --train_size 0.8 --cv 5 --batch_size 64\
+--epochs 500 --step 5 --lr 1e-3 --wd 1e-6 --seed 1111\
+--gpu [the gpu device number (e.g. 0)]\
+--res_path [the full path where the results will be saved]
+```
+
 To run the Gaussian noise-augmented single-cell RNA-Seq self-supervised contrastive learning method (**Self-GsRCL**) reported in [(Alsaggaf et al., 2024)](https://doi.org/10.1093/bfgp/elad059) execute:
 ```
 python3 main.py\
