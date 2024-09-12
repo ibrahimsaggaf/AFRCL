@@ -8,7 +8,7 @@ This is a python implementation of the augmentation-free single-cell RNA-Seq con
   pages={...},
   year={...},
   publisher={...},
-  note={Submitted for publication to [JOURNAL NAME], [SUBMISSION DATE]}
+  note={Submitted for publication to Bioinformatics, September 2024}
 }
 ```
 
