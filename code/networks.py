@@ -23,15 +23,19 @@ class LinearLayer(nn.Module):
 
 
 class Encoder(nn.Module):
-    def __init__(self, enc_in_dim, enc_dim, enc_out_dim, proj_dim, proj_out_dim):
+    def __init__(self, enc_in_dim, enc_dim, enc_out_dim, proj_dim, proj_out_dim, dropout=None):
         super().__init__()
         
-        self.encoder = nn.Sequential(
+        layers = [
             LinearLayer(enc_in_dim, enc_dim),
             LinearLayer(enc_dim, enc_dim),
             LinearLayer(enc_dim, enc_dim),
             LinearLayer(enc_dim, enc_out_dim, output_layer=True)
-        )
+        ]
+        if dropout is not None:
+            layers.insert(0, nn.Dropout(dropout))
+
+        self.encoder = nn.Sequential(*layers)
         
         self.proj_head = nn.Sequential(
             LinearLayer(enc_out_dim, proj_dim),
