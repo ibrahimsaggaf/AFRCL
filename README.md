@@ -1,14 +1,17 @@
 # Less is more: Improving cell-type identification with augmentation-free single-cell RNA-Seq contrastive learning
 This is a python implementation of the augmentation-free single-cell RNA-Seq contrastive learning method (AF-RCL) reported in:
 ```
-@article{...,
-  title={Less is more: Improving cell-type identification with augmentation-free single-cell RNA-Seq contrastive learning},
-  author={Alsaggaf, Ibrahim and Buchan, Daniel and Wan, Cen},
-  journal={...},
-  pages={...},
-  year={...},
-  publisher={...},
-  note={Submitted for publication to Bioinformatics, September 2024}
+@article{10.1093/bioinformatics/btaf437,
+    author = {Alsaggaf, Ibrahim and Buchan, Daniel and Wan, Cen},
+    title = {Less is more: Improving cell-type identification with augmentation-free single-cell RNA-Seq contrastive learning},
+    journal = {Bioinformatics},
+    pages = {btaf437},
+    year = {2025},
+    month = {08},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btaf437},
+    url = {https://doi.org/10.1093/bioinformatics/btaf437},
+    eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btaf437/63961112/btaf437.pdf},
 }
 ```
 
